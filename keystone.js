@@ -6,7 +6,7 @@ require('dotenv').config();
 var keystone = require('keystone');
 var handlebars = require('express-handlebars');
 
-const config = require('./config.json')
+
 
 // Initialise Keystone with your project's configuration.
 // See http://keystonejs.com/guide/config for available options
@@ -30,7 +30,7 @@ keystone.init({
 		extname: '.hbs',
 	}).engine,
 
-	'mongo':  config.dbConnectionUrl,
+	'mongo':  web:gamca@bart.xy.sk:27017/GamcaMates,
 
 	'auto update': true,
 	'session': true,
