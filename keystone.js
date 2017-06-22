@@ -30,7 +30,7 @@ keystone.init({
 		extname: '.hbs',
 	}).engine,
 
-	'mongo':  web:gamca@bart.xy.sk:27017/GamcaMates,
+	'mongo': "web:gamca@bart.xy.sk:27017/GamcaMates",
 
 	'auto update': true,
 	'session': true,
